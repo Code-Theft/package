@@ -1,0 +1,30 @@
+{
+  "name": "parse-enum",
+  "version": "1.0.0",
+  "description": "parse-enum is a util function used to parse UPPER_CAMEL_CASE to readable text",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Theft/parse-enum.git"
+  },
+  "keywords": [
+    "case",
+    "convertion"
+  ],
+  "author": "Code-Theft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-Theft/parse-enum/issues"
+  },
+  "homepage": "https://github.com/Code-Theft/parse-enum#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
